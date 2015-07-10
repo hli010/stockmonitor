@@ -33,7 +33,7 @@ var num = elements[4] / 100;
 var total = elements[5] /10000;
 
 document.write(elements[0]+" : "+elements[1]+" (<font color="+color+
-	"><b> "+elements[3]+"%</b></font>) "+num+"  "+total+"<p>"); 
+	"><b> "+elements[3]+"%</b></font>) "+num+"  "+total+"<br>"); 
 
 var elements=hq_str_s_sz399001.split(",");
 
@@ -46,7 +46,7 @@ var num = elements[4] / 100;
 var total = elements[5] /10000;
 
 document.write(elements[0]+" : "+elements[1]+" (<font color="+color+
-	"><b> "+elements[3]+"%</b></font>) "+num+"  "+total); 
+	"><b> "+elements[3]+"%</b></font>) "+num+"  "+total+"<br>"); 
 
 
 document.write("<img src=\"http://image.sinajs.cn/newchart/min/n/s_sh000001.gif\" />");
