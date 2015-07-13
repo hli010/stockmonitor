@@ -163,8 +163,12 @@ document.write(\"<tr><td>当前价格 </td><td colspan=3> <font color=\"+color+\
 	+\"</font> </td><tr>\");
 document.write(\"<tr><td>今日最高 </td><td>  \" +elements[4] +\"</td>\");
 document.write(\"<td>今日最低 </td><td>  \" +elements[5] +\"</td><tr>\");
+document.write(\"<tr><td> 振幅   </td><td>  \" +stock_value_ele[43] +\"%</td>\");
+document.write(\"<td> 换手率   </td><td>  \" +stock_value_ele[38] +\"%</td><tr>\");
 document.write(\"<tr><td>市盈率   </td><td>  \" +stock_value_ele[39] +\"</td>\");
 document.write(\"<td>总市值   </td><td>  \" +stock_value_ele[45] +\"</td><tr>\");
+document.write(\"<tr><td>市净率   </td><td>  \" +stock_value_ele[46] +\"</td>\");
+document.write(\"<td>流通市值   </td><td>  \" +stock_value_ele[44] +\"</td><tr>\");
 document.write(\"<tr><td>买一 </td><td>  \" +elements[6] +\"</td>\");
 document.write(\"<td>卖一  </td><td>  \" +elements[7] +\"</td><tr>\");
 var num = Math.round(elements[8] / 100);
