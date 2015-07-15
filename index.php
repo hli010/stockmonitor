@@ -141,7 +141,8 @@ foreach ($stock_name_list as $stock){
 <script type=\"text/javascript\">
 var s_ele = hq_str_s_$stock.split(\",\");
 var elements=hq_str_$stock.split(\",\");
-document.write(\"<a href=http://stockpage.10jqka.com.cn/$stname/>\"+elements[0]+\"($stname)\"+\"</a></td>\");
+document.write(\"<a href=http://stockpage.10jqka.com.cn/$stname/>\"+elements[0]+\"</a><br>\");
+document.write(\"<a href=http://gu.qq.com/$stname/>\"+\"($stname)\"+\"</a></td>\");
 var color=\"red\";
 if (s_ele[3] < 0) {
    color = \"green\";
