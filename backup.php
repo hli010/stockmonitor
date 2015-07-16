@@ -1,5 +1,5 @@
 <?php
-$_GET['list'] = 'stock.list';
+$_GET['list'] = 'backup.list';
 
 include_once("index_inc.php");
 

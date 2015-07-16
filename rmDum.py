@@ -19,6 +19,8 @@ newres = [];
 for item in res:
     if item not in newres:
         newres.append(item);
+    else:
+        print("duplicate item : "+item)
 
 #print(newres)
 
