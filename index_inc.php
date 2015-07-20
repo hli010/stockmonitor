@@ -49,6 +49,7 @@ document.write(elements[0]+" : "+elements[1]+" (<font color="+color+
 	"><b> "+elements[3]+"%</b></font>) "+num+"  "+total+"<br>"); 
 
 
+document.write("<a href=http://quote.eastmoney.com/gzqh/IC1507.html> IC1507 </a>");
 document.write("<img src=\"http://image.sinajs.cn/newchart/min/n/s_sh000001.gif\" />");
 </script>
 </td>
